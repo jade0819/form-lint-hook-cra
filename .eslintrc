@@ -1,0 +1,13 @@
+{
+  "env": {
+    "es6": true
+  },
+  "rules": {
+    "no-var": "error",
+    "no-multiple-empty-lines": "error",
+    "no-console": ["error", { "allow": ["warn", "error", "info"] }],
+    "eqeqeq": "error",
+    "dot-notation": "warn",
+    "no-unused-vars": "error"
+  }
+}
