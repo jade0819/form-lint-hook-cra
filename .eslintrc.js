@@ -21,9 +21,9 @@ module.exports = {
       env: {
         jest: true,
       },
-      parserOptions: {
-        sourceType: 'script',
-      },
+      // parserOptions: {
+      //   sourceType: 'script',
+      // },
     },
   ],
   parserOptions: {
@@ -42,6 +42,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
+    'react/prop-types': 0,
     'jsx-a11y/anchor-has-content': [
       'warn',
       {
