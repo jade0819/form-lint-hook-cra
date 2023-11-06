@@ -21,9 +21,6 @@ module.exports = {
       env: {
         jest: true,
       },
-      // parserOptions: {
-      //   sourceType: 'script',
-      // },
     },
   ],
   parserOptions: {
